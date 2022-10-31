@@ -1,0 +1,26 @@
+.about {
+    background: var(--cor-de-about);
+}
+
+.about__title {
+    font-size: 32px;
+    font-weight: var(--font-titles);
+}
+
+.about__paragraph {
+    font-size: 16px;
+    font-weight: var(--font-paragraph);
+    line-height: 19px;
+}
+
+@media screen and (min-width: 0px) {
+    .about {
+        padding: 0.15rem 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 2.5rem 30% 2.5rem 2.5rem;
+    }
+}

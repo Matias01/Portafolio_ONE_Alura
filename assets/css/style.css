@@ -1,0 +1,37 @@
+:root{
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --cor-de-letras: #464646;
+    --cor-de-about: #EAF2FD;
+    --cor-de-item: #FFFFFF;
+    --cor-de-demo-back: #2A7AE4;
+    --cor-de-demo-hover: #2164bc;
+    --cor-de-repo-border-hover: #8ec4f9;
+    --cor-de-input-placeholder: #A2A2A2;
+    --cor-de-input-hover: #1890ff;
+    --cor-de-label: #737373;
+    --cor-de-input-invalid: rgb(255, 0, 0);
+
+    --font-titles: 700;
+    --font-subtitle: 500;
+    --font-paragraph: 400;
+}
+
+body {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    background-color: var(--cor-de-fundo);
+    box-sizing: border-box;
+    color: var(--cor-de-letras);
+    font-family: 'Raleway';
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    color: var(--cor-de-link);
+    text-decoration: none;
+}

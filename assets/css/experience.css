@@ -1,0 +1,116 @@
+.experience {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: var(--font-titles);
+}
+
+.experience__box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__title, .experience__text {
+    margin: 0.25rem 0;
+}
+
+.experience__section__title {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.experience__title {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.experience__text {
+    font-size: 16px;
+    font-weight: var(--font-subtitle);
+    line-height: 19px;
+}
+
+.experience__description {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: var(--font-paragraph);
+    gap: 10px;
+    line-height: 19px;
+}
+
+.experience__demo, .experience__repo {
+    padding: 16px 0;
+}
+
+.experience__demo a, .experience__repo a {
+    padding: 16px;
+}
+
+.experience__repo {
+    border: 1px solid var(--cor-de-demo-back);
+}
+
+.experience__repo:hover {
+    background: var(--cor-de-item);
+    border: 1px solid var(--cor-de-repo-border-hover);
+}
+
+.experience__demo {
+    background: var(--cor-de-demo-back);
+}
+
+.experience__demo:hover {
+    background: var(--cor-de-demo-hover);
+
+}
+
+.experience__demo a {
+    color: var(--cor-de-item);
+}
+
+@media screen and (min-width: 0px) {
+    .experience {
+        margin-left: 2rem;
+    }
+    .experience__box {
+        flex-direction: column;
+    }
+    .experience__img {
+        width: 100%;
+    }
+    
+    .experience__info {
+        margin: 0.75rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .experience {
+        margin-left: 2.5rem;
+    }
+    .experience__box {
+        flex-direction: row;
+    }
+    .experience__box:nth-child(odd)  {
+        flex-direction: row-reverse;
+        padding-right: 2rem;
+    }
+    .experience__img {
+        width: 50vw;
+    }
+    
+    .experience__info {
+        margin: 0.75rem;
+        width: 35%;
+    }
+}
